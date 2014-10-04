@@ -1,3 +1,4 @@
+
 package main.java;
 
 public class Start {
@@ -15,8 +16,8 @@ public class Start {
 		});
 		
 		a = new Matrix(new double[][]{
-			{5, 1},
-			{9, 2},
+			{1, 0},
+			{0, 1},
 		});
 		a.print();
 		System.out.println("----");
