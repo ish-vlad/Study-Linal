@@ -145,7 +145,7 @@ public class Matrix {
 	private void changeRows(int i, int j) {
 		if (i == j) return;
 		
-		double[] buf = matrix[i].clone();
+		double[] buf = matrix[i];
 		matrix[i] =  matrix[j];
 		matrix[j] = buf;
 	}

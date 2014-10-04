@@ -15,8 +15,8 @@ public class Start {
 		});
 		
 		a = new Matrix(new double[][]{
-			{1, 0},
-			{0, 1},
+			{5, 1},
+			{9, 2},
 		});
 		a.print();
 		System.out.println("----");
